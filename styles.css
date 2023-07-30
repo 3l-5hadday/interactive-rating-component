@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* font-family: 'Overpass', sans-serif;
+ */
+
+body {
+    background-color: hsl(216, 12%, 8%) ;
+}
+
+p {
+    font-size: 15px;
+}
+
+#box {
+    background-color: hsl(210, 20%, 10%);
+    height: 21rem;
+    width: 21rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    padding: 30px 30px 30px 30px;
+    filter: brightness(1.2);
+    font-family: 'Overpass', sans-serif;
+}
+
+#icon_box{
+    background-color: hsl(208, 22%, 15%);
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+
+#star_icon{
+    width: 1.1em;
+    height: 1.1em;
+    margin-left: 0.95em;
+    margin-top: 0.95em;
+}
+
+#question {
+    font-size: 1.8em;
+    font-family: 'Overpass', sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    color: rgb(255, 255, 255);
+}
+
+#feedback_text,#thank_text {
+    color: hsl(217, 12%, 63%);
+    margin-block-start: 0.5em;
+    margin-block-end: 1em;
+    line-height: 1.7em;
+}
+
+#rating_state {
+    display:block;
+}
+
+#thankyou_state{
+    display: none;
+}
+
+#rating_box{
+    height: 4em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.rating_buttons {
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    font-family: 'Overpass', sans-serif;
+    border: none;
+    background-color: hsl(208, 22%, 15%);
+    color: hsl(216, 12%, 54%);
+    font-size: medium;
+}
+
+.rating_buttons:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.submit_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+}
+
+#submit_button{
+    height: 3.5em;
+    width: 100%;
+    border-radius: 30px;
+    font-family: 'Overpass', sans-serif;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color:hsl(25, 97%, 53%) ;
+    color: white;
+}
+
+#submit_button:hover{
+    height: 3.5em;
+    width: 100%;
+    border-radius: 30px;
+    font-family: 'Overpass', sans-serif;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: white ;
+    color: hsl(25, 97%, 53%);
+    font-weight: bolder;
+    font-size: medium;
+}
+
+#thankyou_icon {
+    margin: 0 25% 5%;
+}
+
+#thankyou_textBox {
+    text-align: center;
+}
+
+#selected_rate {
+    background-color: hsl(208, 22%, 15%);
+    padding: 0.3em;
+    margin: 0 20% 0;
+    border-radius: 30px;
+    color:hsl(25, 97%, 53%) ;
+}
+
+#thank_heading {
+    color: white;
+}
